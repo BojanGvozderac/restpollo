@@ -1,18 +1,14 @@
-import React, { Component } from "react";
+import Fetch from './components/Fetch/Fetch';
+import Get from './components/Get/Get';
+import Post from './components/Post/Post';
+import Put from './components/Put/Put';
+import Delete from './components/Delete/Delete';
 
-class MySuperCoolComponent extends Component {
-  handleClick = () => {
-    console.log("Click!");
-  };
 
-  render() {
-    const { color, children } = this.props;
-    return (
-      <button onClick={this.handleClick} style={{ color }}>
-        {children}
-      </button>
-    );
-  }
-}
-
-export default MySuperCoolComponent;
+export {
+  Fetch,
+  Get,
+  Post,
+  Put,
+  Delete,
+};

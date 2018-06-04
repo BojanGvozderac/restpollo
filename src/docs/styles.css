@@ -1,4 +1,190 @@
-body {
-  background: #eee;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+html, body {
+  margin: 0;
+  padding: 0;
+
+  font-family: sans-serif;
+
+  background-color: #e7e7e7;
+}
+
+#app, .demo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.demo__title {
+  text-align: center;
+}
+
+.error {
+  width: 400px;
+
+  padding: 20px 0;
+  margin: 0 auto;
+
+  border: 2px solid red;
+
+  color: red;
+  text-align: center;
+
+  background-color: rgba(255, 88, 88, .2);
+}
+
+.success {
+  width: 400px;
+
+  padding: 20px 0;
+  margin: 0 auto;
+
+  border: 2px solid green;
+
+  color: green;
+  text-align: center;
+
+  background-color: rgba(0, 128, 0, 0.199);
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  background-color: rgba(0, 0, 0, .8);
+}
+
+.loader-dot {
+  position: fixed;
+  top: 50%;
+  left: 48%;
+
+  height: 20px;
+  width: 20px;
+
+  border-radius: 100%;
+
+  background-color: rgb(255, 88, 88);
+
+  transform: translate3d(-50%, -50%, 0);
+
+  animation: loaderAnimation 2s ease infinite alternate-reverse;
+}
+
+.loader-second {
+  left: 50%;
+
+  animation-delay: .2s;    
+}
+
+.loader-third {
+  left: 52%;
+
+  animation-delay: .4s;
+}
+
+@keyframes loaderAnimation {
+  0% {
+    background-color: rgb(0, 75, 119);
+  }
+
+  50% {
+    background-color: rgb(255, 255, 81);
+  }
+
+  100% {
+    background-color: rgb(255, 88, 88);
+  }
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+
+  max-width: 920px;
+
+  margin: 0 auto;
+}
+
+.item {
+  position: relative;
+
+  flex: 0 0 auto;
+  
+  padding: 0 10px;
+  margin-bottom: 20px;
+
+  background-color: #fff;
+}
+
+.item::before {
+  content: '';
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  height: 5px;
+}
+
+.item:nth-child(n)::before {
+  background-color: rgb(255, 88, 88);
+}
+
+.item:nth-child(2n)::before {
+  background-color: rgb(0, 75, 119);
+}
+
+.item:nth-child(3n)::before {
+  background-color: rgb(255, 255, 81);
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.divider {
+  position: relative;
+
+  width: 600px;
+  margin: 30px auto;
+
+  height: 1px;
+
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.divider::after {
+  content: '';
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  height: 10px;
+  width: 10px;
+
+  border-radius: 100%;
+
+  background-color: rgba(0, 0, 0);
+
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.fetch-button {
+  background: none;
+  border: none;
+
+  border: 2px solid #240166;
+  border-radius: 12px;
+
+  color: #240166;
+
+  padding: 6px 12px;
 }
