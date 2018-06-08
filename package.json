@@ -1,5 +1,5 @@
 {
-  "name": "Restpollo",
+  "name": "react-restpollo",
   "version": "0.1.0",
   "description": "React components for declarative communication with a REST API inspired by Apollo",
   "main": "lib/index.js",
