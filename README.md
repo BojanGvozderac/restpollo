@@ -57,11 +57,11 @@ Medium post coming soon!
 
 ## Where to find me
 
-Need an experienced tech guy to consult you and help you navigate the world of web development? Drop me a line!
-Need a developer or team of developers to build you dream app? Let's talk!
+Need an experienced tech guy to consult you and help you navigate the world of web development? Drop me a line!\
+Need a developer or team of developers to build you dream app? Let's talk!\
 I'm always open for new opportunities and meeting new people so if you're thinking about getting in touch, go for it!
 
-[Linkedin](https://www.linkedin.com/in/gvozderacbojan/)
-[Medium](https://medium.com/@bojangbusiness)
-[Dev.to](https://dev.to/irideveloper)
+[Linkedin](https://www.linkedin.com/in/gvozderacbojan/)\
+[Medium](https://medium.com/@bojangbusiness)\
+[Dev.to](https://dev.to/irideveloper)\
 [Twitter](https://twitter.com/GvozderacBojan)
