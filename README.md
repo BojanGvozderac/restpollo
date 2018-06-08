@@ -54,3 +54,10 @@ fetchOnMount | If this prop is set the fetch action will be trigger when the com
 ## Wanna find out how I got the idea for Restpollo?
 
 Medium post coming soon!
+
+## Where to find me
+
+[Linkedin](https://www.linkedin.com/in/gvozderacbojan/)
+[Medium](https://medium.com/@bojangbusiness)
+[Dev.to](https://dev.to/irideveloper)
+[Twitter](https://twitter.com/GvozderacBojan)
