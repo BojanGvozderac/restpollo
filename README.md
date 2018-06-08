@@ -2,6 +2,8 @@
 
 React components for declarative communication with a REST API inspired by [Apollo](https://www.apollographql.com/)
 
+*DISCLAIMER: Restpollo isn't an official Apollo project. They did such a good job with React Apollo that it inspired me to create a simplified version for communicating with a REST API using React components and function as children  pattern.*
+
 ## Examples Site [Link](https://irideveloper.github.io/restpollo/)
 
 
